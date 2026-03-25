@@ -25,7 +25,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build with PyInstaller (external mode)
-        run: .\build_pyinstaller.bat external
+        run: .\build_pyinstaller.bat external show-camera
 
       - name: Upload executable to release
         uses: softprops/action-gh-release@v2
