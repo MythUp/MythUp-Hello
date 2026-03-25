@@ -27,4 +27,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build with PyInstaller (external mode)
-        run: .\build_pyinstaller.bat external
+        run: .\build_pyinstaller.bat external show-camera
