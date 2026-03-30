@@ -1,5 +1,7 @@
 opencv-python
 face-recognition
+dlib-bin; platform_system == "Windows"
 pyqt6
 numpy
 pyinstaller
+setuptools<81

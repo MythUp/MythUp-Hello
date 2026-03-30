@@ -1,4 +1,6 @@
-venv/
+.vscode/
+
+.venv/
 __pycache__/
 *.npz
 *.npy
