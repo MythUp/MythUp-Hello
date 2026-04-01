@@ -3,3 +3,5 @@ face-recognition
 pyqt6
 numpy
 pyinstaller
+dlib-bin
+setuptools
